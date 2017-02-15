@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://goo.gl/kT08Rh' target='_blank'><img src='http://vachngannhapkhau.vn/uploads/khach-hang/vachvesinh/thicong/thicongvachnganvesinhcholotte2.jpg' width='500px'/><br/>thi công vách ngăn vệ sinh compact chuyên nghiệp</a>bảo hành 24 tháng dài hạn <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://goo.gl/kT08Rh' target='_blank'><img src='http://vachngannhapkhau.vn/uploads/khach-hang/vachvesinh/thicong/thicongvachnganvesinhcholotte2.jpg' width='500px'/><br/>thi công vách ngăn vệ sinh compact chuyên nghiệp</a>. bảo hành 24 tháng dài hạn <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
